@@ -1,10 +1,10 @@
-#GITHU COMMANDS
+#GITHUB COMMANDS
 
-git cd <directory>
+git cd
 
-git clone <link>
+git clone
 
-cd <filename>
+cd
 
 git pull origin main
 
@@ -14,17 +14,17 @@ git checkout -b zearwin
 
 git branch
 
-git pull origin main 
-<already up to date>
+git pull origin main
 
-#FIRST TRY COMMAND ONLY
-{
- git config --global user.name "<username>"
+#FIRST TRY COMMAND ONLY { git config --global user.name ""
 
- git config --global user.email "<email>"
-	
- git config --list
-}
+git config --global user.email ""
+
+git config --list }
+
+#SENDING CODE TO REPOSITORY
+
+git status
 
 #SENDING CODE TO REPOSITORY
 
@@ -38,13 +38,13 @@ git commit -m "message"
 git push origin <branch name>
 <login your git in browser if alert appears>
 
+git push origin
+
+
 git checkout main
 
 DELETE BRANCH
 
-git branch -d <branchname created>
+git branch -d
 
-git  branch
-
-<END>
-
+git branch
