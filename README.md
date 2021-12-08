@@ -26,11 +26,20 @@ git config --list }
 
 git status
 
+#SENDING CODE TO REPOSITORY
+
+git status
+<check if there is any changes>
+	
 git add .
 
 git commit -m "message"
 
+git push origin <branch name>
+<login your git in browser if alert appears>
+
 git push origin
+
 
 git checkout main
 
