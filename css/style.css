@@ -8315,8 +8315,6 @@ a[data-toggle="collapse"] {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  background: #F0FFFF;
-  background-image: url('/weather/images/cloud3.jpg');
    }
 
 .btn.btn-primary {
