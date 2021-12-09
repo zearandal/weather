@@ -51,4 +51,4 @@ document
     }
   });
 
-weather.fetchWeather("General Santos City");
+weather.fetchWeather("Manila");

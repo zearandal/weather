@@ -8166,7 +8166,7 @@ h1, h2, h3, h4, h5,
   line-height: 1.5;
   font-weight: 400;
   font-family: "Poppins", Arial, sans-serif;
-  color: #000; }
+  color: #344152; }
 
 .img {
   background-size: cover;
@@ -8310,13 +8310,13 @@ a[data-toggle="collapse"] {
 
 #content {
   width: 100%;
-  background: #F0FFFF;
-  background-image: url('https://source.unsplash.com/1600x900/?landscape');
   padding: 0;
   min-height: 100vh;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  background: #F0FFFF;
+  background-image: url('/weather/images/cloud3.jpg');
    }
 
 .btn.btn-primary {
