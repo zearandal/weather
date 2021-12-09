@@ -8310,11 +8310,14 @@ a[data-toggle="collapse"] {
 
 #content {
   width: 100%;
+  background: #F0FFFF;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
   padding: 0;
   min-height: 100vh;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+   }
 
 .btn.btn-primary {
   background: #2f89fc;
