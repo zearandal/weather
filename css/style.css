@@ -69,7 +69,8 @@ hr {
   overflow: visible; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+  margin: .5em;
+  margin-top: 1;
   margin-bottom: 0.5rem; }
 
 p {
@@ -166,7 +167,9 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none;
+  height: 10%;
+  width: 10%;}
 
 svg {
   overflow: hidden;
@@ -193,7 +196,7 @@ button {
   border-radius: 0; }
 
 button:focus {
-  outline: 1px dotted;
+  outline: 5px dotted;
   outline: 5px auto -webkit-focus-ring-color; }
 
 input,
@@ -8274,11 +8277,11 @@ h1, h2, h3, h4, h5,
         -o-transition: none;
         transition: none; } }
     #sidebar .custom-menu .btn.btn-primary {
-      background: #2f89fc;
+      background: #fff;
       border-color: transparent;
-      position: relative;
+      position: absolute;
       color: #000;
-      width: 30px;
+      width: 50px;
       height: 30px; }
       #sidebar .custom-menu .btn.btn-primary:after, #sidebar .custom-menu .btn.btn-primary:before {
         position: absolute;
@@ -8309,7 +8312,7 @@ a[data-toggle="collapse"] {
     display: none; } }
 
 #content {
-  width: 100%;
+  width: 78%;
   padding: 0;
   min-height: 100vh;
   -webkit-transition: all 0.3s;
@@ -8353,3 +8356,21 @@ a[data-toggle="collapse"] {
 
 .subscribe-form .form-control {
   background: #fff; }
+
+#embedMap {
+  width: 100%;
+  height: 75%;
+  float: left;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
+  border-radius: 2rem;
+}
+#location {
+  margin: auto;
+  margin-left: 35%;
+  width: 30%;
+  border: 1px solid black;
+  padding: 10px;
+}
