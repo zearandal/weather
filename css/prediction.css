@@ -14,9 +14,11 @@ body {
   background: #2F4F4Fd0;
   color: white;
   padding: 2em;
-  border-radius: 30px;
-  width: 78%;
-  margin: 3em;
+  border-radius: 2rem;
+  width: 80%;
+  margin: 5rem; /* Added */
+  float: none; /* Added */
+  margin-top: 9rem; /* Added */
 }
 
 .search {
@@ -55,7 +57,7 @@ button:hover {
 }
 
 h1.temp {
-  margin: 0;
+  margin: .5em;
   margin-bottom: 0.4em;
 }
 
