@@ -9,6 +9,15 @@
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/weather/css/style.css">
+
+    <!-- Load jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Load Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+
+    <!-- Load PapaParse to read csv files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
   </head>
   <body>
 
@@ -45,19 +54,29 @@
     	</nav>
 
         <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5 pt-5">
-        <h2 class="mb-4">Sidebar #04</h2>
-        <p>
-          Project By:
-          <br>
-          Andallo, Solatorio, Sosa, Veniegas
-        </p>
+      <div style="background-color: #E0FFFF;" id="content" class="p-4 p-md-5 pt-5">
+
+        <canvas id="qqqqqqqqq" style="width:100%; height:400px;"></canvas>
+
+        <p style="font-family: Helvetica; color: #333; padding: 1em 2em; font-size: 12px">
+            Source: Climate Change Knowledge Portal
+            <br>
+        </p> <script src="/weather/js/graph1.js"></script>
+
+        <canvas id="container" style="width:100%; height:400px;"></canvas>
+
+        <p style="font-family: Helvetica; color: #333; padding: 1em 2em; font-size: 12px">
+            Source: Climate Change Knowledge Portal
+            <br>
+        </p> <script src="/weather/js/graph2.js"></script>
+
       </div>
+
 		</div>
 
-    <script src="/weather/js/jquery.min.js"></script>
-    <script src="/weather/js/popper.js"></script>
+
     <script src="/weather/js/bootstrap.min.js"></script>
     <script src="/weather/js/main.js"></script>
   </body>
+
 </html>
