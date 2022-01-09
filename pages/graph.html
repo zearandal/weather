@@ -9,6 +9,7 @@
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/weather/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Load jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -21,37 +22,36 @@
   </head>
   <body>
 
-		<div class="wrapper d-flex align-items-stretch">
-			<nav id="sidebar" class="order-last" class="img" style="background-image: url(/weather/images/bg_1.jpg);">
-				<div class="custom-menu">
-					<!-- <button type="button" id="sidebarCollapse" class="btn btn-primary">
-	        </button> -->
-        </div>
-        <div class="">
-		  		<h1><a href="index.html" class="logo">ULAPP <span>Weather Forecast</span></a></h1>
-	        <ul class="list-unstyled components mb-5">
-	          <li class="active">
-	            <a href="/weather/index.html"><span class="fa fa-cloud mr-3"></span> Prediction</a>
-	          </li>
-	          <li>
-	              <a href="/weather/pages/map.html"><span class="fa fa-paper-plane mr-3"></span> My Location</a>
-	          </li>
-	          <li>
-              <a href="#"><span class="fa fa-sticky-note mr-3"></span> Weather History</a>
-	          </li>
-	        </ul>
-
-	        <div class="footer px-4">
-            <p>
-              Project By:
-              <br>
-              Andallo, Solatorio, Sosa, Veniegas
-            </p>
-	        </div>
-
-	      </div>
-
-    	</nav>
+			<nav class="sidebar" id="img" style="background-image: url(/weather/images/bg_1.jpg);">
+    <div class="logo-details">
+      <img src="/weather/images/applogo.png" id="icon" alt="Weather App Logo">
+        <h1><a href="/weather/index.html" class="logo_name">ULAPP <span> Weather Forecast</span></a></h1>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="/weather/index.html">
+          <i class='bx bxs-cloud'></i>
+          <span class="links_name">Prediction</span>
+        </a>
+         <span class="tooltip">Prediction</span>
+      </li>
+      <li>
+       <a href="/weather/pages/map.html">
+         <i class='bx bxs-paper-plane' ></i>
+         <span class="links_name">My Location</span>
+       </a>
+       <span class="tooltip">My Location</span>
+     </li>
+     <li>
+       <a href="/weather/pages/map.html">
+         <i class='bx bxs-note'></i>
+         <span class="links_name">Weather History</span>
+       </a>
+       <span class="tooltip">Weather History</span>
+     </li>
+    </ul>
+  </nav>
 
         <!-- Page Content  -->
       <div style="background-color: #E0FFFF;" id="content" class="p-4 p-md-5 pt-5">
@@ -74,9 +74,13 @@
 
 		</div>
 
-
     <script src="/weather/js/bootstrap.min.js"></script>
     <script src="/weather/js/main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prediction.js"></script>
   </body>
 
 </html>
